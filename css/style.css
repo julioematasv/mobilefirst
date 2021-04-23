@@ -1,3 +1,24 @@
+/*
+1 - Posicionamiento.
+2 - Modelo de caja.
+3 - Tipografía. 
+4 - Temas Visuales.
+5 - Micelaneos u Otros.
+*/
+
+:root {
+  /* Colores Corpporativos */
+  --bitcoin-orange: #F7931A;
+  --soft-orange:    #FFE9D4;
+  --secondary-blue: #1A9AF7;
+  --soft-blue:      #E7F5FF;
+  --warm-black:     #201E1C;
+  --warm-blac-1:    #282623;
+  --grey:           #BABABA;
+  --of-white:       #FAF8F7;
+  --just-white:     #FFFFFF;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,5 +28,4 @@
 html {
   font-size: 62.5%;
   font-family: 'DM Sans', sans-serif;
-  font-family: 'Inter', sans-serif;
 }
