@@ -95,9 +95,30 @@ header img {
 .header--button span {
   display: inline-block;
   width: 1.3rem;
-  height: 1.3rem;
+  height: 1.8rem;
   margin-left: 1rem;
   background-image: url('../assets/iconos/flechaAbajo.png');
   background-repeat: no-repeat;
   cursor: pointer;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
+}
+
+.main--exchange-container {
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.main--exchange-container--title {
+  width: 90%;
+  min-width: 30rem;
+  max-width: 90rem;
+  margin: 0 auto;
 }
