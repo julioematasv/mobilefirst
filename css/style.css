@@ -328,7 +328,7 @@ main {
   position: absolute;
   width: 4rem;
   height: 2.5rem;
-  top: -1rem;
+  top: -1.2rem;
   left: calc(50% - 20px);
   background-image: url(../assets/img/LogoPatata.svg);
 }
@@ -394,4 +394,37 @@ main {
   font-weight: 500;
   line-height: 1.8rem;
   color: #808080;
+}
+
+.product-detail--card .eye {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(../assets/iconos/eye\ 1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-detail--card .dollar {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(../assets/iconos/dollar-sign\ 1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-detail--card .check {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(../assets/iconos/check-circle\ 1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
