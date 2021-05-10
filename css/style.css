@@ -255,8 +255,8 @@ main {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  min-width: 230px;
-  max-width: 300px;
+  min-width: 320px;
+  max-width: 500px;
 }
 
 .grid__comision-table {
@@ -312,10 +312,6 @@ main {
   border-radius: 0 0 15px 15px;
 }
 
-.main--tables-container {
-  margin-bottom: 6rem;
-}
-
 .main-product-detail {
   position: relative;
   width: 100%;
@@ -323,6 +319,16 @@ main {
   height: auto;
   padding: 2rem 1rem;
   background-color: var(--warm-black);
+}
+
+.main--tables-container {
+  display: flex;
+  width: auto;
+  height: 360px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  margin-bottom: 6rem;
 }
 
 .product-detail--batata-logo {
